@@ -26,5 +26,11 @@ public class Calculator {
       a = m * n;
       System.out.println(a);
     }
+    else if (args[0].equalsIgnoreCase("Divide")) {
+      double m = Double.parseDouble(args[1]);
+      double n = Double.parseDouble(args[2]);
+      a = (double) m / n;
+      System.out.println(a);
+    }
   }
 }
