@@ -10,4 +10,4 @@ public class Tester2{
       }
     System.out.print(ans);
   }
-}
+} 
