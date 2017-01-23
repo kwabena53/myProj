@@ -7,9 +7,12 @@ public class Tester2{
       }
       else if (args[0].equalsIgnoreCase("sub")){
       ans=Integer.parseInt(args[1]) - Integer.parseInt(args[2]);
-      }	
+      } 
       else if (args[0].equalsIgnoreCase("mult")){
       ans=Integer.parseInt(args[1]) * Integer.parseInt(args[2]);
+      }
+      else if (args[0].equalsIgnoreCase("div")){
+      ans=Integer.parseInt(args[1]) / Integer.parseInt(args[2]);
       }
     System.out.print(ans); 
   }
