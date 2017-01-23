@@ -19,6 +19,12 @@ public class Calculator {
       double y = Double.parseDouble(args[2]);
       a = x - y;
       System.out.println(a);
-    }  
+    }
+    else if (args[0].equalsIgnoreCase("Multiply")) {
+      double m = Double.parseDouble(args[1]);
+      double n = Double.parseDouble(args[2]);
+      a = m * n;
+      System.out.println(a);
+    }
   }
 }
